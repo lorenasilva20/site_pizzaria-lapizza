@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La pizza - pizzaria</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -105,14 +106,58 @@
                     </article>
                 </div>
             </div>
-
         </section>
 
         <section id="contato">
-            <p>contato</p>
+            <div>
+                <h3>Fale com a gente!</h3>
+                <form>
+                    <label>
+                        Nome:
+                        <input type="text" placeholder="digite seu nome completo..." name="nome" required>
+                    </label>
+
+                    <label>
+                        Telefone:
+                        <input type="tel" placeholder="(11)91111-1111" name="telefone" required>
+                    </label>
+
+                    <label>
+                        Mensagem:
+                        <textarea name="mensagem" placeholder="digite sua mensagem" rows="5"></textarea>
+                    </label>
+
+                    <input type="submit" name="enviar">
+                </form>
+            </div>
+
+            <div>
+                <h3>Onde estamos</h3>
+            <p>Av: Miro Atílio Peduzzi, 140 - Quarta Divisão, Ribeirão Pires - SP, 09436-500
+              <strong> Abertos de seg a dom</strong> 18h as 23h
+            </p>
+            <figure>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.65694270841!2d-46.371813023757305!3d-23.65245376494682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce6dfb75290e1f%3A0x9c1aba530d0c0376!2sE.E.%20Prof%C2%AA%20Judith%20Ferreira%20Piva!5e0!3m2!1spt-BR!2sbr!4v1758977488370!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </figure>
+            </div>
+            
 
         </section>
     </main>
+
+    <footer>
+        <div>
+            <small>
+                ©
+                <strong>2025</strong>
+                La Pizza - Feito para aprender
+            </small>
+            <a href="#">
+                ↑ ir para o topo
+            </a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
